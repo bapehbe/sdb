@@ -5,9 +5,9 @@
 
 
 ; Be careful not to save your credentials into a public repo.
-(def *AWS-ACCESS-KEY-ID* "your-aws-access-key")
-(def *AWS-SECRET-ACCESS-KEY* "your-aws-secret-key")
-;(load-file (str (System/getProperty "user.home") "/.aws.keys.clj"))
+;(def *AWS-ACCESS-KEY-ID* "your-aws-access-key")
+;(def *AWS-SECRET-ACCESS-KEY* "your-aws-secret-key")
+(load-file (str (System/getProperty "user.home") "/.aws.keys.clj"))
 
 ;get logging to calm down, else noisy at REPL 
 ;(org.apache.log4j.PropertyConfigurator/configure "debug.log4j.properties")

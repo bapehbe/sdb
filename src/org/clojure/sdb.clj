@@ -16,7 +16,7 @@
   http://aws.amazon.com/sdkforjava/
   http://docs.amazonwebservices.com/AWSJavaSDK/latest/javadoc/index.html"
  
- (use clojure.contrib.pprint)
+ (use clojure.pprint)
  (import
    (com.amazonaws.services.simpledb AmazonSimpleDB AmazonSimpleDBClient)
    (com.amazonaws.services.simpledb.model
